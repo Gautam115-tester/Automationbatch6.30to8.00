@@ -20,15 +20,6 @@ RemoteWebDriver w;
 		w.get("https://www.google.com/");
 	}
 	
-	@Test (priority = 1)
-	public void Facebook() {
- dc	= new DesiredCapabilities();
-	     
-	     dc.setPlatform(Platform.WINDOWS);
-	     dc.setBrowserName("firefox");
-		
-		w = new RemoteWebDriver(dc);
-		w.get("https://www.facebook.com/");
-	}
+
 	
 }
